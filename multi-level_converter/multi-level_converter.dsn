@@ -1,0 +1,961 @@
+(PCB "/Users/benpetroski/Documents/eagle/multi-level_converter/multi-level_converter.brd"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad CadSoft)
+    (host_version 'EAGLE Version 6.6.0 Copyright (c) 1988-2014 CadSoft')
+  )
+  (resolution mm 10000)
+  (unit mm)
+  (structure
+    (layer "1#Top"  (type signal))
+    (layer "6#Route6"  (type signal))
+    (layer "11#Route11"  (type signal))
+    (layer "16#Bottom"  (type signal))
+    (boundary 
+      (rect pcb  0.000000 0.000000 121.900000 83.490000)
+    )
+    (boundary (path signal 0 0.000000 0.000000 121.900000 0.000000))
+    (boundary (path signal 0 121.900000 0.000000 121.900000 83.490000))
+    (boundary (path signal 0 121.900000 83.490000 0.000000 83.490000))
+    (boundary (path signal 0 0.000000 83.490000 0.000000 0.000000))
+    (via
+       "Round1$0.609597"
+       "Round5$0.600000"
+    )
+    (rule (width 0.254000)(clearance 0.203200))
+    (control
+      (via_at_smd on)
+    )
+  )
+  (placement
+    (place_control (flip_style rotate_first))
+    (component "0805$DragonflyLBR2" 
+      (place "C1" 119.380000 44.450000 Front 90.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C2" 26.670000 50.800000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C3" 115.570000 50.800000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C4" 30.480000 44.450000 Front 90.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C5" 58.420000 50.800000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C6" 62.230000 44.450000 Front 90.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C7" 83.820000 50.800000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C8" 87.630000 44.450000 Front 90.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C9" 20.955000 64.770000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C10" 24.765000 67.310000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C11" 44.450000 66.040000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C12" 46.355000 66.040000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C13" 50.165000 78.740000 Front 90.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C14" 52.070000 78.740000 Front 90.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C15" 98.425000 65.278000 Front 180.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C16" 54.610000 79.375000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C17" 53.340000 73.025000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C18" 40.005000 69.215000 Front 180.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C19" 98.425000 67.818000 Front 180.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C20" 114.935000 67.818000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C21" 114.935000 65.278000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C22" 98.425000 62.738000 Front 180.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C23" 114.935000 62.738000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C24" 10.160000 64.770000 Front 180.000000)
+    )
+    (component "C37.5B20$capacitor-wima" 
+      (place "C25" 36.830000 26.670000 Front 0.000000)
+    )
+    (component "C2225K$resistor" 
+      (place "C26" 36.830000 12.700000 Front 0.000000)
+    )
+    (component "C37.5B20$capacitor-wima" 
+      (place "C27" 93.980000 26.670000 Front 0.000000)
+    )
+    (component "C2225K$resistor" 
+      (place "C28" 93.980000 12.700000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C29" 18.415000 78.105000 Front 180.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "C30" 10.795000 53.975000 Front 180.000000)
+    )
+    (component "TO252$DragonflyLBR2" 
+      (place "D1" 19.050000 43.180000 Front 0.000000)
+    )
+    (component "TO252$DragonflyLBR2" 
+      (place "D2" 49.530000 44.450000 Front 0.000000)
+    )
+    (component "TO252$DragonflyLBR2" 
+      (place "D3" 106.680000 43.180000 Front 0.000000)
+    )
+    (component "TO252$DragonflyLBR2" 
+      (place "D4" 76.200000 43.180000 Front 0.000000)
+    )
+    (component "TO252$DragonflyLBR2" 
+      (place "D5" 33.020000 52.070000 Front 0.000000)
+    )
+    (component "TO252$DragonflyLBR2" 
+      (place "D6" 90.170000 52.070000 Front 0.000000)
+    )
+    (component "1X02$DragonflyLBR2" 
+      (place "J2" 12.700000 72.390000 Front 180.000000)
+    )
+    (component "AVR_ICSP$DragonflyLBR2" 
+      (place "JP1" 5.715000 67.310000 Front 180.000000)
+    )
+    (component "AVR_ICSP$DragonflyLBR2" 
+      (place "JP3" 67.945000 74.930000 Front 0.000000)
+    )
+    (component "AVR_ICSP$DragonflyLBR2" 
+      (place "JP4" 9.525000 78.105000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "L1" 53.975000 76.835000 Front 90.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "L2" 95.885000 64.008000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "L3" 117.475000 64.008000 Front 270.000000)
+    )
+    (component "LED-0603$DragonflyLBR2" 
+      (place "LED1" 16.510000 62.865000 Front 90.000000)
+    )
+    (component "LED-0603$DragonflyLBR2" 
+      (place "LED2" 16.510000 64.770000 Front 90.000000)
+    )
+    (component "LED-0603$DragonflyLBR2" 
+      (place "LED3" 13.335000 69.850000 Front 90.000000)
+    )
+    (component "LED-0603$DragonflyLBR2" 
+      (place "LED4" 13.335000 67.310000 Front 90.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R1" 114.300000 40.640000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R2" 116.840000 40.640000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R3" 25.400000 40.640000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R4" 27.940000 40.640000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R5" 57.150000 40.640000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R6" 59.690000 40.640000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R7" 82.550000 40.640000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R8" 85.090000 40.640000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R9" 115.570000 53.340000 Front 180.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R10" 26.670000 53.340000 Front 180.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R11" 83.820000 53.340000 Front 180.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R12" 58.420000 53.340000 Front 180.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R13" 102.235000 62.738000 Front 180.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R14" 15.240000 73.025000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R15" 88.265000 80.010000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R16" 88.265000 77.470000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R17" 88.265000 72.390000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R18" 88.265000 69.850000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R19" 13.335000 62.865000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R20" 13.335000 64.770000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R21" 10.160000 69.850000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R22" 10.160000 67.310000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R23" 36.830000 48.260000 Front 90.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R24" 93.980000 48.260000 Front 90.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R25" 64.770000 17.780000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R26" 64.770000 21.590000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R27" 20.955000 74.295000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R28" 19.050000 76.200000 Front 180.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R29" 19.050000 80.010000 Front 0.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R30" 67.310000 17.780000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R31" 67.310000 21.590000 Front 270.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R32" 11.430000 36.830000 Front 90.000000)
+    )
+    (component "0805$DragonflyLBR2" 
+      (place "R33" 11.430000 33.020000 Front 90.000000)
+    )
+    (component "DIPSWITCH-02$DragonflyLBR2" 
+      (place "SW1" 80.645000 78.740000 Front 90.000000)
+    )
+    (component "DIPSWITCH-02$DragonflyLBR2" 
+      (place "SW2" 80.645000 71.120000 Front 90.000000)
+    )
+    (component "PAD.03X.05$DragonflyLBR2" 
+      (place "TP1" 113.030000 53.340000 Front 0.000000)
+    )
+    (component "PAD.03X.05$DragonflyLBR2" 
+      (place "TP2" 24.130000 53.340000 Front 0.000000)
+    )
+    (component "PAD.03X.05$DragonflyLBR2" 
+      (place "TP3" 81.280000 53.340000 Front 0.000000)
+    )
+    (component "PAD.03X.05$DragonflyLBR2" 
+      (place "TP4" 55.880000 53.340000 Front 0.000000)
+    )
+    (component "PAD.03X.05$DragonflyLBR2" 
+      (place "TP5" 44.450000 44.450000 Front 0.000000)
+    )
+    (component "PAD.03X.05$DragonflyLBR2" 
+      (place "TP6" 101.600000 43.180000 Front 0.000000)
+    )
+    (component "PAD.03X.05$DragonflyLBR2" 
+      (place "TP7" 58.420000 55.880000 Front 0.000000)
+    )
+    (component "PAD.03X.05$DragonflyLBR2" 
+      (place "TP8" 83.820000 55.880000 Front 0.000000)
+    )
+    (component "PAD.03X.05$DragonflyLBR2" 
+      (place "TP9" 26.670000 55.880000 Front 0.000000)
+    )
+    (component "PAD.03X.05$DragonflyLBR2" 
+      (place "TP10" 115.570000 55.880000 Front 0.000000)
+    )
+    (component "PAD.03X.05$DragonflyLBR2" 
+      (place "TP11" 95.885000 61.468000 Front 90.000000)
+    )
+    (component "PAD.03X.05$DragonflyLBR2" 
+      (place "TP12" 20.955000 67.310000 Front 90.000000)
+    )
+    (component "PAD.03X.05$DragonflyLBR2" 
+      (place "TP15" 102.235000 60.198000 Front 90.000000)
+    )
+    (component "PAD.03X.05$DragonflyLBR2" 
+      (place "TP16" 111.125000 67.818000 Front 90.000000)
+    )
+    (component "TO-247-FLAT$DragonflyLBR2" 
+      (place "U$1" 20.320000 8.890000 Front 270.000000)
+    )
+    (component "TO-247-FLAT$DragonflyLBR2" 
+      (place "U$2" 53.340000 8.890000 Front 270.000000)
+    )
+    (component "TO-247-FLAT$DragonflyLBR2" 
+      (place "U$3" 110.490000 8.890000 Front 270.000000)
+    )
+    (component "TO-247-FLAT$DragonflyLBR2" 
+      (place "U$4" 77.470000 8.890000 Front 270.000000)
+    )
+    (component "LQFP48$carrilib" 
+      (place "U$5" 45.720000 73.660000 Front 90.000000)
+    )
+    (component "10MM_2PIN_CONNECTOR$DragonflyLBR2" 
+      (place "U$6" 5.080000 43.180000 Front 270.000000)
+    )
+    (component "10MM_4PIN_CONNECTOR$DragonflyLBR2" 
+      (place "U$7" 5.080000 33.020000 Front 270.000000)
+    )
+    (component "SOLDER_PAD$DragonflyLBR2" 
+      (place "U$8" 34.290000 3.810000 Front 90.000000)
+    )
+    (component "SOLDER_PAD$DragonflyLBR2" 
+      (place "U$9" 91.440000 3.810000 Front 90.000000)
+    )
+    (component "HFBR-15X3$fiber-optic-hp" 
+      (place "U$10" 99.695000 81.788000 Front 180.000000)
+    )
+    (component "HFBR-15X3$fiber-optic-hp" 
+      (place "U$11" 114.935000 81.788000 Front 180.000000)
+    )
+    (component "SO08$DragonflyLBR2" 
+      (place "U$12" 11.430000 49.530000 Front 0.000000)
+    )
+    (component "SOLDER_PAD$DragonflyLBR2" 
+      (place "U$13" 3.810000 53.340000 Front 0.000000)
+    )
+    (component "SOLDER_PAD$DragonflyLBR2" 
+      (place "U$14" 3.810000 58.420000 Front 0.000000)
+    )
+    (component "QUICK_CONNECT$DragonflyLBR2" 
+      (place "U$15" 91.440000 3.810000 Front 0.000000)
+    )
+    (component "QUICK_CONNECT$DragonflyLBR2" 
+      (place "U$16" 34.290000 3.810000 Front 0.000000)
+    )
+    (component "SO08$DragonflyLBR2" 
+      (place "U1" 26.670000 45.720000 Front 180.000000)
+    )
+    (component "SO08$DragonflyLBR2" 
+      (place "U2" 115.570000 45.720000 Front 180.000000)
+    )
+    (component "SO08$DragonflyLBR2" 
+      (place "U3" 58.420000 45.720000 Front 180.000000)
+    )
+    (component "SO08$DragonflyLBR2" 
+      (place "U4" 83.820000 45.720000 Front 180.000000)
+    )
+    (component "SOT23-5$DragonflyLBR2" 
+      (place "U5" 24.765000 64.135000 Front 270.000000)
+    )
+    (component "SOIC127P600X175-8N$Texas Instruments_By_element14_Batch_1" 
+      (place "U6" 24.765000 78.105000 Front 180.000000)
+    )
+    (component "HC49UP$DragonflyLBR2" 
+      (place "Y1" 45.720000 60.960000 Front 0.000000)
+    )
+  )
+  (library
+    (image "1X02$DragonflyLBR2"
+      (pin "Round2" "1" 0.000000 0.000000)
+      (pin "Round2" "2" 2.540000 0.000000)
+    )
+    (image "10MM_2PIN_CONNECTOR$DragonflyLBR2"
+      (pin "Round2" "1" -5.080000 0.000000)
+      (pin "Round2" "5" 5.080000 0.000000)
+    )
+    (image "10MM_4PIN_CONNECTOR$DragonflyLBR2"
+      (pin "Round2" "1" 0.000000 0.000000)
+      (pin "Round2" "2" 10.160000 0.000000)
+      (pin "Round2" "3" 20.320000 0.000000)
+      (pin "Round2" "4" 30.480000 0.000000)
+    )
+    (image "0805$DragonflyLBR2"
+      (pin "Rectangle1" "1" -0.900000 0.000000)
+      (pin "Rectangle1" "2" 0.900000 0.000000)
+    )
+    (image "AVR_ICSP$DragonflyLBR2"
+      (outline(rect "1#Top" -1.524000 -0.254000 -1.016000 0.254000))
+      (pin "Octagon1" "1" -1.270000 5.080000)
+      (pin "Octagon1" "2" 1.270000 5.080000)
+      (pin "Octagon1" "3" -1.270000 2.540000)
+      (pin "Octagon1" "4" 1.270000 2.540000)
+      (pin "Octagon1" "5" -1.270000 0.000000)
+      (pin "Octagon1" "6" 1.270000 0.000000)
+      (pin "Octagon1" "7" -1.270000 -2.540000)
+      (pin "Octagon1" "8" 1.270000 -2.540000)
+      (pin "Octagon1" "9" -1.270000 -5.080000)
+      (pin "Octagon1" "10" 1.270000 -5.080000)
+    )
+    (image "DIPSWITCH-02$DragonflyLBR2"
+      (outline(rect "1#Top" 0.762000 -0.381000 1.778000 0.000000))
+      (outline(rect "1#Top" 0.762000 -1.016000 1.778000 -0.635000))
+      (outline(rect "1#Top" 0.762000 -1.651000 1.778000 -1.270000))
+      (outline(rect "1#Top" -1.778000 -0.381000 -0.762000 0.000000))
+      (outline(rect "1#Top" -1.778000 -1.016000 -0.762000 -0.635000))
+      (outline(rect "1#Top" -1.778000 -1.651000 -0.762000 -1.270000))
+      (pin "Oblong1" "1" -1.270000 -3.810000)
+      (pin "Oblong1" "2" 1.270000 -3.810000)
+      (pin "Oblong1" "3" 1.270000 3.810000)
+      (pin "Oblong1" "4" -1.270000 3.810000)
+    )
+    (image "HC49UP$DragonflyLBR2"
+      (via_keepout(rect signal -6.604000 -3.048000 6.604000 3.048000))
+      (pin "Rectangle2" "1" -4.826000 0.000000)
+      (pin "Rectangle2" "2" 4.826000 0.000000)
+    )
+    (image "LED-0603$DragonflyLBR2"
+      (pin "Rectangle3" "A" 0.000000 -0.750000)
+      (pin "Rectangle3" "C" 0.000000 0.750000)
+    )
+    (image "PAD.03X.05$DragonflyLBR2"
+      (pin "Round3" "P$1" 0.000000 0.000000)
+    )
+    (image "QUICK_CONNECT$DragonflyLBR2"
+      (keepout (circ signal 1.603200 0.000000 0.000000))
+      (keepout (circ signal 1.603200 5.080000 0.000000))
+      (pin "Round4" "1" 0.000000 0.000000)
+      (pin "Round4" "2" 5.080000 0.000000)
+    )
+    (image "SO08$DragonflyLBR2"
+      (pin "Rectangle4" "1" -1.905000 -2.350000)
+      (pin "Rectangle4" "2" -0.635000 -2.350000)
+      (pin "Rectangle4" "3" 0.635000 -2.350000)
+      (pin "Rectangle4" "4" 1.905000 -2.350000)
+      (pin "Rectangle4" "5" 1.905000 2.350000)
+      (pin "Rectangle4" "6" 0.635000 2.350000)
+      (pin "Rectangle4" "7" -0.635000 2.350000)
+      (pin "Rectangle4" "8" -1.905000 2.350000)
+    )
+    (image "SOLDER_PAD$DragonflyLBR2"
+      (pin "Rectangle5" "1" 0.000000 0.000000)
+    )
+    (image "SOT23-5$DragonflyLBR2"
+      (pin "Rectangle6" "COM" 0.950000 1.300100)
+      (pin "Rectangle6" "CS" -0.950000 -1.300100)
+      (pin "Rectangle6" "GATE" 0.950000 -1.300100)
+      (pin "Rectangle6" "N/C" 0.000000 -1.300100)
+      (pin "Rectangle6" "VS" -0.950000 1.300100)
+    )
+    (image "TO-247-FLAT$DragonflyLBR2"
+      (pin "Oblong2" "P$1" 0.000000 5.500000)
+      (pin "Oblong2" "P$2" 0.000000 0.000000)
+      (pin "Oblong2" "P$3" 0.000000 -5.500000)
+    )
+    (image "TO252$DragonflyLBR2"
+      (outline(rect "1#Top" -0.431800 -3.022600 0.431800 -2.260600))
+      (place_keepout(path "1#Top" 0 3.973000 5.983000 3.973000 -5.983000 -3.973000 -5.983000 -3.973000 5.983000 ))
+      (pin "Rectangle7" "1" -2.280000 -4.800000)
+      (pin "Rectangle7" "2" 2.280000 -4.800000)
+      (pin "Rectangle8" "3" 0.000000 2.500000)
+    )
+    (image "SOIC127P600X175-8N$Texas Instruments_By_element14_Batch_1"
+      (pin "Rectangle9" "1" -2.463800 1.905000)
+      (pin "Rectangle9" "2" -2.463800 0.635000)
+      (pin "Rectangle9" "3" -2.463800 -0.635000)
+      (pin "Rectangle9" "4" -2.463800 -1.905000)
+      (pin "Rectangle9" "5" 2.463800 -1.905000)
+      (pin "Rectangle9" "6" 2.463800 -0.635000)
+      (pin "Rectangle9" "7" 2.463800 0.635000)
+      (pin "Rectangle9" "8" 2.463800 1.905000)
+    )
+    (image "C37.5B20$capacitor-wima"
+      (pin "Octagon2" "1" -18.796000 0.000000)
+      (pin "Octagon2" "2" 18.796000 0.000000)
+    )
+    (image "LQFP48$carrilib"
+      (outline(circ "1#Top" 1.000000 -2.500000 2.500000))
+      (pin "Rectangle10" "1" -4.250000 2.750000)
+      (pin "Rectangle10" "2" -4.250000 2.250000)
+      (pin "Rectangle10" "3" -4.250000 1.750000)
+      (pin "Rectangle10" "4" -4.250000 1.250000)
+      (pin "Rectangle10" "5" -4.250000 0.750000)
+      (pin "Rectangle10" "6" -4.250000 0.250000)
+      (pin "Rectangle10" "7" -4.250000 -0.250000)
+      (pin "Rectangle10" "8" -4.250000 -0.750000)
+      (pin "Rectangle10" "9" -4.250000 -1.250000)
+      (pin "Rectangle10" "10" -4.250000 -1.750000)
+      (pin "Rectangle10" "11" -4.250000 -2.250000)
+      (pin "Rectangle10" "12" -4.250000 -2.750000)
+      (pin "Rectangle11" "13" -2.750000 -4.250000)
+      (pin "Rectangle11" "14" -2.250000 -4.250000)
+      (pin "Rectangle11" "15" -1.750000 -4.250000)
+      (pin "Rectangle11" "16" -1.250000 -4.250000)
+      (pin "Rectangle11" "17" -0.750000 -4.250000)
+      (pin "Rectangle11" "18" -0.250000 -4.250000)
+      (pin "Rectangle11" "19" 0.250000 -4.250000)
+      (pin "Rectangle11" "20" 0.750000 -4.250000)
+      (pin "Rectangle11" "21" 1.250000 -4.250000)
+      (pin "Rectangle11" "22" 1.750000 -4.250000)
+      (pin "Rectangle11" "23" 2.250000 -4.250000)
+      (pin "Rectangle11" "24" 2.750000 -4.250000)
+      (pin "Rectangle10" "25" 4.250000 -2.750000)
+      (pin "Rectangle10" "26" 4.250000 -2.250000)
+      (pin "Rectangle10" "27" 4.250000 -1.750000)
+      (pin "Rectangle10" "28" 4.250000 -1.250000)
+      (pin "Rectangle10" "29" 4.250000 -0.750000)
+      (pin "Rectangle10" "30" 4.250000 -0.250000)
+      (pin "Rectangle10" "31" 4.250000 0.250000)
+      (pin "Rectangle10" "32" 4.250000 0.750000)
+      (pin "Rectangle10" "33" 4.250000 1.250000)
+      (pin "Rectangle10" "34" 4.250000 1.750000)
+      (pin "Rectangle10" "35" 4.250000 2.250000)
+      (pin "Rectangle10" "36" 4.250000 2.750000)
+      (pin "Rectangle12" "37" 2.750000 4.250000)
+      (pin "Rectangle12" "38" 2.250000 4.250000)
+      (pin "Rectangle12" "39" 1.750000 4.250000)
+      (pin "Rectangle12" "40" 1.250000 4.250000)
+      (pin "Rectangle12" "41" 0.750000 4.250000)
+      (pin "Rectangle12" "42" 0.250000 4.250000)
+      (pin "Rectangle12" "43" -0.250000 4.250000)
+      (pin "Rectangle12" "44" -0.750000 4.250000)
+      (pin "Rectangle12" "45" -1.250000 4.250000)
+      (pin "Rectangle12" "46" -1.750000 4.250000)
+      (pin "Rectangle12" "47" -2.250000 4.250000)
+      (pin "Rectangle12" "48" -2.750000 4.250000)
+    )
+    (image "HFBR-15X3$fiber-optic-hp"
+      (outline(circ "1#Top" 0.508000 4.445000 11.684000))
+      (pin "Oblong3" "1" 3.810000 9.525000)
+      (pin "Oblong3" "2" 1.270000 9.525000)
+      (pin "Oblong3" "3" -1.270000 9.525000)
+      (pin "Oblong3" "4" -3.810000 9.525000)
+      (pin "Oblong3" "5" -3.810000 1.905000)
+      (pin "Oblong3" "8" 3.810000 1.905000)
+    )
+    (image "C2225K$resistor"
+      (pin "Rectangle13" "1" -2.550000 0.000000)
+      (pin "Rectangle13" "2" 2.550000 0.000000)
+    )
+    (padstack "ViaDefault$0.609600"
+      (shape (circle signal 1.016000 0 0))
+    )
+    (padstack "Round1$0.609597" 
+      (shape (circle "1#Top" 1.016000 0 0))
+      (shape (circle "6#Route6" 1.016000 0 0))
+      (shape (circle "11#Route11" 1.016000 0 0))
+      (shape (circle "16#Bottom" 1.016000 0 0))
+      (attach off)
+    )
+    (padstack "Round2" 
+      (shape (circle signal 1.879600 0 0))
+      (attach off)
+    )
+    (padstack "Rectangle1" 
+      (shape (rect "1#Top" -0.400000 -0.600000 0.400000 0.600000))
+      (attach off)
+    )
+    (padstack "Octagon1" 
+      (shape (polygon "1#Top" 0 0.939800 0.389278 0.389278 0.939800 -0.389278 0.939800 -0.939800 0.389278 -0.939800 -0.389278 -0.389278 -0.939800 0.389278 -0.939800 0.939800 -0.389278 ))
+      (shape (circle "6#Route6" 1.524000 0 0))
+      (shape (circle "11#Route11" 1.524000 0 0))
+      (shape (polygon "16#Bottom" 0 0.939800 0.389278 0.389278 0.939800 -0.389278 0.939800 -0.939800 0.389278 -0.939800 -0.389278 -0.389278 -0.939800 0.389278 -0.939800 0.939800 -0.389278 ))
+      (attach off)
+    )
+    (padstack "Oblong1" 
+      (shape (path signal 1.320800 0.000000 -0.660400 0.000000 0.660400))
+      (attach off)
+    )
+    (padstack "Rectangle2" 
+      (shape (rect "1#Top" -2.667000 -0.965200 2.667000 0.965200))
+      (attach off)
+    )
+    (padstack "Rectangle3" 
+      (shape (rect "1#Top" -0.400000 -0.400000 0.400000 0.400000))
+      (attach off)
+    )
+    (padstack "Round3"       (shape (circle "1#Top" 1.270000 0 0))
+      (attach off)
+    )
+    (padstack "Round4" 
+      (shape (circle signal 2.200000 0 0))
+      (attach off)
+    )
+    (padstack "Rectangle4" 
+      (shape (rect "1#Top" -0.360000 -0.890000 0.360000 0.890000))
+      (attach off)
+    )
+    (padstack "Rectangle5" 
+      (shape (rect "1#Top" -3.175000 -1.905000 3.175000 1.905000))
+      (attach off)
+    )
+    (padstack "Rectangle6" 
+      (shape (rect "1#Top" -0.275000 -0.600000 0.275000 0.600000))
+      (attach off)
+    )
+    (padstack "Oblong2" 
+      (shape (path signal 4.016000 -2.008000 0.000000 2.008000 0.000000))
+      (attach off)
+    )
+    (padstack "Rectangle7" 
+      (shape (rect "1#Top" -0.500000 -0.800000 0.500000 0.800000))
+      (attach off)
+    )
+    (padstack "Rectangle8" 
+      (shape (rect "1#Top" -2.700000 -3.100000 2.700000 3.100000))
+      (attach off)
+    )
+    (padstack "Rectangle9" 
+      (shape (rect "1#Top" -0.990600 -0.279400 0.990600 0.279400))
+      (attach off)
+    )
+    (padstack "Octagon2" 
+      (shape (polygon "1#Top" 0 1.574800 0.652303 0.652303 1.574800 -0.652303 1.574800 -1.574800 0.652303 -1.574800 -0.652303 -0.652303 -1.574800 0.652303 -1.574800 1.574800 -0.652303 ))
+      (shape (circle "6#Route6" 1.981200 0 0))
+      (shape (circle "11#Route11" 1.981200 0 0))
+      (shape (polygon "16#Bottom" 0 1.574800 0.652303 0.652303 1.574800 -0.652303 1.574800 -1.574800 0.652303 -1.574800 -0.652303 -0.652303 -1.574800 0.652303 -1.574800 1.574800 -0.652303 ))
+      (attach off)
+    )
+    (padstack "Rectangle10" 
+      (shape (rect "1#Top" -0.600000 -0.150000 0.600000 0.150000))
+      (attach off)
+    )
+    (padstack "Rectangle11" 
+      (shape (rect "1#Top" -0.150000 -0.600000 0.150000 0.600000))
+      (attach off)
+    )
+    (padstack "Rectangle12" 
+      (shape (rect "1#Top" -0.150000 -0.600000 0.150000 0.600000))
+      (attach off)
+    )
+    (padstack "Oblong3" 
+      (shape (path signal 1.524000 0.000000 -0.762000 0.000000 0.762000))
+      (attach off)
+    )
+    (padstack "Rectangle13" 
+      (shape (rect "1#Top" -0.925000 -3.400000 0.925000 3.400000))
+      (attach off)
+    )
+    (padstack "Round5$0.600000" 
+      (shape (circle "1#Top" 1.006400 0 0))
+      (shape (circle "6#Route6" 1.006400 0 0))
+      (shape (circle "11#Route11" 1.006400 0 0))
+      (shape (circle "16#Bottom" 1.006400 0 0))
+      (attach off)
+    )
+  )
+  (network
+    (net "+3V3"
+      (pins  "U5"-"VS" "C10"-"2" "U$5"-"1" "TP11"-"P$1" "L1"-"1" "L2"-"2" "C22"-"2" "JP1"-"9" "U6"-"3" "C23"-"2" "L3"-"2" "R15"-"2" "R18"-"2" "R17"-"2" "R16"-"2" "J2"-"2")
+    )
+    (net "+5V"
+      (pins  "U2"-"1" "C2"-"2" "U1"-"1" "C3"-"2" "U3"-"1" "C5"-"2" "U4"-"1" "C7"-"2" "TP12"-"P$1" "U5"-"GATE" "U5"-"CS" "C9"-"1" "U$13"-"1" "LED4"-"A" "LED3"-"A" "JP4"-"5" "JP4"-"9" "U$12"-"8" "C30"-"2")
+    )
+    (net "+15V"
+      (pins  "U2"-"5" "C1"-"2" "U3"-"5" "C6"-"2" "R23"-"2" "R24"-"2" "U$14"-"1" "JP4"-"6" "JP4"-"10")
+    )
+    (net "AVDD"
+      (pins  "L1"-"2" "C13"-"1" "C14"-"1" "U$5"-"9" "U$5"-"24" "U$5"-"25" "C16"-"1")
+    )
+    (net "BOOT0"
+      (pins  "R14"-"2" "U$5"-"44" "J2"-"1")
+    )
+    (net "BRIDGE_LEFT"
+      (pins  "U1"-"8" "R10"-"1" "U$1"-"P$3" "U$3"-"P$2" "C4"-"1" "TP5"-"P$1" "D1"-"2" "D2"-"1" "U$9"-"1" "U$15"-"1" "U$15"-"2" "R25"-"2" "D2"-"3")
+    )
+    (net "BRIDGE_RIGHT"
+      (pins  "U4"-"8" "R11"-"1" "C8"-"1" "U$4"-"P$3" "U$2"-"P$2" "TP6"-"P$1" "D3"-"1" "D4"-"2" "U$8"-"1" "U$16"-"2" "U$16"-"1" "R30"-"2" "D3"-"3")
+    )
+    (net "CANH"
+      (pins  "U6"-"7" "R28"-"1" "JP4"-"2")
+    )
+    (net "CANL"
+      (pins  "U6"-"6" "R29"-"2" "JP4"-"1")
+    )
+    (net "CAN_RX"
+      (pins  "U$5"-"45" "U6"-"4")
+    )
+    (net "CAN_TX"
+      (pins  "U$5"-"46" "U6"-"1")
+    )
+    (net "GATEDRIVE_LL"
+      (pins  "U2"-"2" "U$5"-"11" "TP10"-"P$1")
+    )
+    (net "GATEDRIVE_LR"
+      (pins  "U3"-"2" "U$5"-"13" "TP7"-"P$1")
+    )
+    (net "GATEDRIVE_UL"
+      (pins  "U1"-"2" "U$5"-"10" "TP9"-"P$1")
+    )
+    (net "GATEDRIVE_UR"
+      (pins  "U4"-"2" "U$5"-"12" "TP8"-"P$1")
+    )
+    (net "GND"
+      (pins  "U$3"-"P$3" "U$2"-"P$3" "U2"-"8" "C1"-"1" "R9"-"1" "U3"-"8" "R12"-"1" "C6"-"1" "U$5"-"8" "U$5"-"47" "C11"-"1" "C12"-"1" "C13"-"2" "C14"-"2" "R14"-"1" "U$5"-"23" "C16"-"2" "C17"-"2" "C18"-"2" "D2"-"2" "D3"-"2" "U$11"-"4" "U$11"-"2" "U$10"-"3" "C20"-"1" "C21"-"1" "C23"-"1" "C10"-"1" "U5"-"N/C" "C9"-"2" "C24"-"1" "JP1"-"1" "C15"-"1" "C19"-"1" "C22"-"1" "R13"-"2" "R19"-"1" "R20"-"1" "C25"-"2" "C26"-"2" "C27"-"2" "C28"-"2" "U6"-"2" "R27"-"1" "C29"-"1" "JP4"-"4" "U$7"-"4" "U$7"-"3" "U$7"-"2" "U$7"-"1" "JP4"-"3" "JP4"-"8" "JP4"-"7" "R26"-"1" "R31"-"1" "R33"-"1" "U$12"-"6" "U$12"-"5" "C30"-"1")
+    )
+    (net "ID1"
+      (pins  "SW1"-"3" "U$5"-"29")
+    )
+    (net "ID2"
+      (pins  "SW1"-"4" "U$5"-"28")
+    )
+    (net "ID3"
+      (pins  "SW2"-"3" "U$5"-"27")
+    )
+    (net "ID4"
+      (pins  "SW2"-"4" "U$5"-"26")
+    )
+    (net "IN$1"
+      (pins  "U2"-"3")
+    )
+    (net "IN$2"
+      (pins  "U1"-"3")
+    )
+    (net "IN$3"
+      (pins  "U3"-"3")
+    )
+    (net "IN$4"
+      (pins  "U4"-"3")
+    )
+    (net "N$1"
+      (pins  "U4"-"5" "D6"-"3" "D6"-"1" "C8"-"2")
+    )
+    (net "N$2"
+      (pins  "R3"-"2" "U$1"-"P$1" "R4"-"2" "R10"-"2" "TP2"-"P$1")
+    )
+    (net "N$3"
+      (pins  "R1"-"2" "U$3"-"P$1" "R2"-"2" "R9"-"2" "TP1"-"P$1")
+    )
+    (net "N$4"
+      (pins  "R1"-"1" "U2"-"6")
+    )
+    (net "N$5"
+      (pins  "U2"-"7" "R2"-"1")
+    )
+    (net "N$6"
+      (pins  "R3"-"1" "U1"-"6")
+    )
+    (net "N$7"
+      (pins  "U1"-"7" "R4"-"1")
+    )
+    (net "N$8"
+      (pins  "R5"-"2" "U$2"-"P$1" "R6"-"2" "R12"-"2" "TP4"-"P$1")
+    )
+    (net "N$9"
+      (pins  "R5"-"1" "U3"-"6")
+    )
+    (net "N$10"
+      (pins  "U3"-"7" "R6"-"1")
+    )
+    (net "N$11"
+      (pins  "R7"-"2" "U$4"-"P$1" "R8"-"2" "R11"-"2" "TP3"-"P$1")
+    )
+    (net "N$12"
+      (pins  "R7"-"1" "U4"-"6")
+    )
+    (net "N$13"
+      (pins  "U4"-"7" "R8"-"1")
+    )
+    (net "N$14"
+      (pins  "U$5"-"17" "C17"-"1")
+    )
+    (net "N$21"
+      (pins  "LED3"-"C" "R21"-"2")
+    )
+    (net "N$22"
+      (pins  "LED4"-"C" "R22"-"2")
+    )
+    (net "N$23"
+      (pins  "SW1"-"2" "R15"-"1")
+    )
+    (net "N$24"
+      (pins  "SW1"-"1" "R16"-"1")
+    )
+    (net "N$25"
+      (pins  "SW2"-"2" "R17"-"1")
+    )
+    (net "N$26"
+      (pins  "U$5"-"48" "C18"-"1")
+    )
+    (net "N$27"
+      (pins  "SW2"-"1" "R18"-"1")
+    )
+    (net "N$29"
+      (pins  "U$10"-"1" "L2"-"1" "C15"-"2" "C19"-"2")
+    )
+    (net "N$30"
+      (pins  "U$11"-"3" "C20"-"2" "C21"-"2" "L3"-"1")
+    )
+    (net "N$32"
+      (pins  "U$10"-"4" "R13"-"1" "TP15"-"P$1" "U$5"-"14")
+    )
+    (net "N$33"
+      (pins  "U$11"-"1" "TP16"-"P$1" "U$5"-"15")
+    )
+    (net "N$34"
+      (pins  "LED1"-"C" "R19"-"2")
+    )
+    (net "N$35"
+      (pins  "LED2"-"C" "R20"-"2")
+    )
+    (net "N$36"
+      (pins  "R23"-"1" "D5"-"2")
+    )
+    (net "N$37"
+      (pins  "C4"-"2" "U1"-"5" "D5"-"1" "D5"-"3")
+    )
+    (net "N$38"
+      (pins  "R24"-"1" "D6"-"2")
+    )
+    (net "N$42"
+      (pins  "R29"-"1" "R28"-"2" "C29"-"2")
+    )
+    (net "NRST"
+      (pins  "U$5"-"7" "C24"-"2" "JP1"-"3")
+    )
+    (net "OSC_IN"
+      (pins  "Y1"-"1" "C11"-"2" "U$5"-"5")
+    )
+    (net "OSC_OUT"
+      (pins  "C12"-"2" "Y1"-"2" "U$5"-"6")
+    )
+    (net "PA6"
+      (pins  "U$5"-"16" "R32"-"1" "R33"-"2")
+    )
+    (net "PA11"
+      (pins  "U$5"-"32" "LED1"-"A")
+    )
+    (net "PA12"
+      (pins  "U$5"-"33" "LED2"-"A")
+    )
+    (net "PB0"
+      (pins  "U$5"-"18" "R25"-"1" "R26"-"2")
+    )
+    (net "PB1"
+      (pins  "U$5"-"19" "R30"-"1" "R31"-"2")
+    )
+    (net "PB2"
+      (pins  "U$5"-"20" "U$12"-"7")
+    )
+    (net "PB5"
+      (pins  "U$5"-"41" "JP3"-"6")
+    )
+    (net "PB6"
+      (pins  "U$5"-"42" "JP3"-"8")
+    )
+    (net "PB7"
+      (pins  "U$5"-"43" "JP3"-"10")
+    )
+    (net "PC13"
+      (pins  "U$5"-"2" "JP3"-"9")
+    )
+    (net "PC14"
+      (pins  "U$5"-"3" "JP3"-"7")
+    )
+    (net "PC15"
+      (pins  "U$5"-"4" "JP3"-"5")
+    )
+    (net "PE8"
+      (pins  "U$5"-"21" "JP3"-"1")
+    )
+    (net "PE9"
+      (pins  "U$5"-"22" "JP3"-"3")
+    )
+    (net "PF6"
+      (pins  "U$5"-"35" "JP3"-"2")
+    )
+    (net "PF7"
+      (pins  "U$5"-"36" "JP3"-"4")
+    )
+    (net "PWR"
+      (pins  "R32"-"2" "U$6"-"5" "U$6"-"1" "U$12"-"1" "U$12"-"2")
+    )
+    (net "PWR_SENSE"
+      (pins  "U$1"-"P$2" "D1"-"1" "C25"-"1" "C26"-"1" "U$4"-"P$2" "C27"-"1" "C28"-"1" "D4"-"1" "U$12"-"3" "U$12"-"4" "D1"-"3" "D4"-"3")
+    )
+    (net "RS"
+      (pins  "U6"-"8" "R27"-"2")
+    )
+    (net "RX"
+      (pins  "JP1"-"7" "U$5"-"31" "R21"-"1")
+    )
+    (net "SGND"
+      (pins  "C2"-"1" "U2"-"4" "C3"-"1" "U1"-"4" "C5"-"1" "U3"-"4" "C7"-"1" "U4"-"4")
+    )
+    (net "TCK"
+      (pins  "U$5"-"37" "JP1"-"4")
+    )
+    (net "TDI"
+      (pins  "U$5"-"38" "JP1"-"6")
+    )
+    (net "TDO"
+      (pins  "U$5"-"39" "JP1"-"8")
+    )
+    (net "TMS"
+      (pins  "U$5"-"34" "JP1"-"2")
+    )
+    (net "TRST"
+      (pins  "U$5"-"40" "JP1"-"10")
+    )
+    (net "TX"
+      (pins  "JP1"-"5" "U$5"-"30" "R22"-"1")
+    )
+  )
+  (wiring
+    (wire
+      (path "6#Route6" 0.040000 5.080000 33.020000 5.207000 32.893000) 
+      (net "GND")
+    )
+    (wire
+      (path "6#Route6" 0.040000 5.207000 32.893000 5.207000 33.020000) 
+      (net "GND")
+    )
+    (wire
+      (poly "6#Route6"  0.040000 0.000000 0.000000 0.000000 83.439000 121.920000 83.439000 121.920000 0.000000) 
+      (net "GND")
+    )
+    (wire
+      (poly "1#Top"  0.040000 13.335000 1.397000 13.335000 32.893000 7.493000 32.893000 7.493000 34.798000 0.762000 34.798000 0.762000 0.508000 13.589000 0.508000 13.589000 1.397000) 
+      (net "GND")
+    )
+    (wire
+      (poly "1#Top"  0.100000 7.747000 36.703000 13.335000 36.703000 13.335000 33.147000 7.747000 33.147000) 
+      (net "PA6")
+    )
+    (via
+      "Round5$0.600000" 9.144000 35.052000
+      (net "PA6")
+    )
+    (wire
+      (poly "1#Top"  0.100000 7.493000 35.306000 1.016000 35.306000 1.016000 50.927000 8.636000 50.927000 8.636000 49.530000 11.303000 49.530000 11.303000 38.989000 13.335000 38.989000 13.335000 37.084000 7.493000 37.084000) 
+      (net "PWR")
+    )
+    (wire
+      (poly "1#Top"  0.100000 11.557000 49.530000 11.557000 39.243000 13.589000 39.243000 13.589000 38.989000 13.589000 16.383000 17.653000 16.383000 17.653000 3.937000 22.987000 3.937000 22.987000 34.290000 19.050000 34.290000 19.050000 41.148000 22.987000 41.148000 22.987000 49.149000 22.987000 49.530000) 
+      (net "PWR_SENSE")
+    )
+  )
+)
